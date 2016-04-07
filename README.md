@@ -23,7 +23,7 @@ Link: https://www.kaggle.com/c/amazon-employee-access-challenge
 * We start testing different ensemble techniques as:
        - Simple average
        - Weighted average based on cv
-       - Weighted Rank AVerage based on cv
+       - Weighted Rank Average based on cv
        - Use Xgboost 
 
 
