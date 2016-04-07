@@ -37,5 +37,20 @@ Inisde a folder that the train.csv and test.csv are present :
 * Run amazon_main_logit_3way.py
 * Run amazon_main_xgboost_count.py
 * Run amazon_main_xgboost_count_3D.py
-* 
+
+This will yield the following results in Kaggle's Private Leaderboard and internal 5-fold cv
+
+Model name | AUC - Private LB | AUC- CV 5-fold
+--- | --- | ---
+main_xgboost | 0.89096 | 0.876971
+amazon_main_logit_2D | 0.89534 | 0.877267
+main_logit_3way | 0.89554 | 0.878507
+main_logit_3way_best | 0.89792 | 0.882932
+main_xgboos_count | 0.88187 | 0.870671
+main_xgboos_count_2D | 0.90127 | 0.888981
+main_xgboos_count_3D | **0.904** | **0.893425**
+
+
+
+
 
