@@ -24,7 +24,8 @@ Link: https://www.kaggle.com/c/amazon-employee-access-challenge
        - Simple average
        - Weighted average based on cv
        - Weighted Rank Average based on cv
-       - Use Xgboost 
+       - Geomean Weighted Rank Average based on cv
+       - Use another model (ExtraTreesClassifier from sklearn) to perform meta-stacking 
 
 # Replicate solution
 
@@ -49,6 +50,25 @@ main_logit_3way_best | 0.89792 | 0.882932
 main_xgboos_count | 0.88187 | 0.870671
 main_xgboos_count_2D | 0.90127 | 0.888981
 main_xgboos_count_3D | **0.904** | **0.893425**
+
+
+* Run AUC_Average.py
+* Run AUC_Weighted_Average.py
+* Run AUC_Rank_Weighted_Average.py
+* Run AUC_Geo_Rank_Weighted_Average.py
+* Run amazon_stacking.py
+
+This will yield:
+
+Model name | AUC - Private LB | AUC- CV 5-fold
+--- | --- | ---
+AUC_Average | 0.90725 | 0.893209
+AUC_Weighted_Average | 0.91121 | 0.899529
+AUC_Rank_Weighted_Average | 0.90916 | 0.897925
+AUC_Geo_Rank_Weighted_Average | 0.90988 | 0.898586
+amazon_stacking | **0.91206** | **0.899851**
+
+
 
 
 
