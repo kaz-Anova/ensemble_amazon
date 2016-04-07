@@ -19,11 +19,11 @@ Link: https://www.kaggle.com/c/amazon-employee-access-challenge
 
 # The ensemble methods
 
-- The code initially creates a couple of models on different transformations of the data and saves the out-of-fold predictions
-- We start testing different ensemble techniques as:
-        * Simple average
-        * Weighted average based on cv
-        * Weighted Rank AVerage based on cv
-        * Use Xgboost 
+* The code initially creates a couple of models on different transformations of the data and saves the out-of-fold predictions
+* We start testing different ensemble techniques as:
+       - Simple average
+       - Weighted average based on cv
+       - Weighted Rank AVerage based on cv
+       - Use Xgboost 
 
 
