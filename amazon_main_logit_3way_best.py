@@ -1,12 +1,11 @@
-""" Amazon Access Challenge Starter Code
+""" Amazon Access Challenge Code for ensemble
 
 Marios Michaildis script for Amazon .
 
+Uses 3-way interactions with forward feature selection and logistic regression
 
- based on Paul Duan's Script.
+based on Paul Duan's Script.
  
- Theme: What if Xgboost was Alive back in 2013!
-
 
 """
 from __future__ import division

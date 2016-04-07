@@ -1,11 +1,11 @@
-""" Amazon Access Challenge Starter Code
+""" Amazon Access Challenge Code for ensemble
 
 Marios Michaildis script for Amazon .
 
+Uses counts as features  and xgboost
 
- based on Paul Duan's Script.
+based on Paul Duan's Script.
  
- Theme: What if Xgboost was Alive back in 2013!
 
 
 """

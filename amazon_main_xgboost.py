@@ -1,15 +1,14 @@
-""" Amazon Access Challenge Starter Code
+""" Amazon Access Challenge Code for ensemble
 
 Marios Michaildis script for Amazon .
 
+xgboost on input data
 
- based on Paul Duan's Script.
- 
- Theme: What if Xgboost was Alive back in 2013!
-
+based on Paul Duan's Script.
 
 """
-from __future__ import division
+from __future_
+_ import division
 import numpy as np
 from sklearn import  preprocessing
 from sklearn.metrics import roc_auc_score
