@@ -7,12 +7,13 @@ The code is for education purposes and did not aim to achieve a high score.
 
 # Requirements
 
-Python 2.7
-Xgboost
-Sklearn
-numpy
-scipy
-pandas
+*Python 2.7
+*Xgboost
+*Sklearn
+*numpy
+*scipy
+*pandas
+
 download the train.csv and test.csv data from the kaggle competition :  Amazon.com - Employee Access Challenge
 Link: https://www.kaggle.com/c/amazon-employee-access-challenge
 
