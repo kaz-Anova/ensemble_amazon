@@ -26,4 +26,16 @@ Link: https://www.kaggle.com/c/amazon-employee-access-challenge
        - Weighted Rank Average based on cv
        - Use Xgboost 
 
+# Replicate solution
+
+Inisde a folder that the train.csv and test.csv are present :
+
+* Run amazon_main_xgboost_count_2D.py
+* Run amazon_main_logit_3way_best.py
+* Run amazon_main_logit_2D.py
+* Run amazon_main_xgboost.py
+* Run amazon_main_logit_3way.py
+* Run amazon_main_xgboost_count.py
+* Run amazon_main_xgboost_count_3D.py
+* 
 
