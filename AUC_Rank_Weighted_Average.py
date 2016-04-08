@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.externals import joblib
 
 """
-Script to do the final ensemble via rank-averaging the level 3 meta models
+Script to do the final ensemble via rank-weighted-averaging
 
 using many cross validations schemas for better AUC score
 
