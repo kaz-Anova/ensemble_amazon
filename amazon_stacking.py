@@ -99,8 +99,6 @@ def main():
         ######### Load files (...or not!) ############
        
         y = np.loadtxt("train.csv", delimiter=',',usecols=[0], skiprows=1)
-        # the trainstacked features is a dataset provided from Henk and Mathes that contains:
-        #a couple of FTRL models, non alphanumeric , sentiment scores and some additional models 
         if load_data:
             Xmetatrain=None
             Xmetatest=None     
